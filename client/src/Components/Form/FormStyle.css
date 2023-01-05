@@ -1,0 +1,57 @@
+.form-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.form{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+    padding: 25px;
+}
+
+.form h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: orangered;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.field{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+ form input{
+    padding: 5px;
+    font-size: 16px;
+ }
+
+ form button{
+    width: 40%;
+    padding: 5px;
+    background-color: rgb(252, 68, 36);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, 
+    rgba(0, 0, 3, 0.3) 0px 1px 3px -1px;
+ }
